@@ -9,8 +9,9 @@
 ## Prérequis
 - Virtual Box 6.0
 - Vagrant
-- 
-### 1ère Partie
+- Bash terminal
+
+## 1ère Partie
   #### Installation OS
   - Télécharger Ubuntu Server
   - Lancer Virtual Box et crée une nouvelle machine virtuelle . RAM (1GB)
@@ -53,3 +54,15 @@
   
   #### Test
   - Pour tester que tous marche : http://localhost:8000/
+  
+  
+## 2ème Partie
+  
+  #### Crée la VM
+  - Télécharger et installer Vagrant
+  - Crée un Vagrantfile et le configurer
+    > vagrant init
+    
+  #### Lancer la VM
+  > vagrant up
+ 
