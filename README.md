@@ -2,9 +2,14 @@
 
 ## Info
 
-mail: antinea.gontard@ynov.com
-github_username: Maengast
+**mail**: antinea.gontard@ynov.com
 
+**github_username**: Maengast
+
+## Prérequis
+- Virtual Box 6.0
+- Vagrant
+- 
 ### 1ère Partie
   #### Installation OS
   - Télécharger Ubuntu Server
@@ -30,4 +35,21 @@ github_username: Maengast
     | http | TCP | 127.0.0.1 | 8000 | (IP Machine) | 80 |
     | https | TCP | 127.0.0.1 | 4443 | (IP Machine) | 443 |
   
-  - 
+  #### Configuration Nginx
+  - Acceder au dossier utiliser par le seveur Web
+    > cd /var/www/html
+    
+  - Crée un index.html 
+    > nano index.html
+    
+  - Editer le fichier comme suit :
+  ``` <!DOCTYPE html>
+      <html>
+      <body>
+      B3 Devops - TP 1
+      </body>
+      </html>
+   ```
+  
+  #### Test
+  - Pour tester que tous marche : http://localhost:8000/
