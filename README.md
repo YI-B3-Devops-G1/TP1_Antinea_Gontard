@@ -54,7 +54,7 @@
   
   #### Test
   - Pour tester que tous marche : http://localhost:8000/
-  
+  ![Alt text](Test.PNG "Test")
   
 ## 2ème Partie
   
