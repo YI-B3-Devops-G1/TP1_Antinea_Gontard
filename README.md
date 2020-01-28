@@ -60,10 +60,14 @@
   
   #### Crée la VM
   - Télécharger et installer Vagrant
-  - Depuis le terminal , crée un Vagrantfile et le configurer
+  - Depuis le terminal , crée un Vagrantfile permettant de crée et configurer la VM.
     > vagrant init
+   
+  - Crée un script Bash "bootstrap.sh" permettant d'installer les packages "nodejs" , "nginx", "open-sssh server". Faire en sorte qu'il soit appelé dans le Vagrantfile
     
-  #### Lancer la VM
+  #### Création de la VM
   Depuis le terminal : 
   > vagrant up
+  
+  Le script "bootstrap.sh" sera excecuté par vagrant lors de la création de la VM.
  
