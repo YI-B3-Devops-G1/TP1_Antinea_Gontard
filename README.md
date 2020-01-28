@@ -9,7 +9,7 @@
 ## Prérequis
 - Virtual Box 6.0
 - Vagrant
-- Bash terminal
+- Terminal
 
 ## 1ère Partie
   #### Installation OS
@@ -60,9 +60,10 @@
   
   #### Crée la VM
   - Télécharger et installer Vagrant
-  - Crée un Vagrantfile et le configurer
+  - Depuis le terminal , crée un Vagrantfile et le configurer
     > vagrant init
     
   #### Lancer la VM
+  Depuis le terminal : 
   > vagrant up
  
