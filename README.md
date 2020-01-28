@@ -58,7 +58,7 @@
   
 ## 2ème Partie
   
-  #### Crée la VM
+  #### Crée le Vagrantfile
   - Télécharger et installer Vagrant
   - Depuis le terminal , crée un Vagrantfile permettant de crée et configurer la VM.
     > vagrant init
